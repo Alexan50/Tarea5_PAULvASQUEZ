@@ -1,4 +1,4 @@
-#calculo de la media y mediana de edades añadir la varianza y  desviacion estandar 
+#Tarea calculo de la media y mediana de edades añadir la varianza y  desviacion estandar 
 
 import numpy as np
 import matplotlib.pyplot as plt 
@@ -11,3 +11,4 @@ plt.axvline(np.median(edades), color='g', linestyle='-.', label=f"mediana: {np.m
 plt.title(f"var: {np.var(edades):.2f} | Desv: {np.std(edades):.2f}")
 plt.legend()
 plt.show()
+#Paul Vasquez Velasquez
